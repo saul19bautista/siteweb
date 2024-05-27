@@ -3,100 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Un Gato</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Te amo</title>
     <style>
         body {
+            background-color: #ffe6e6; /* Cambiar el color de fondo a un tono rosa claro */
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
         }
-        
-        .gato {
-            width: 300px;
-            height: 300px;
-            border: 1px solid #ccc;
-            border-radius: 50%;
+        .container {
+            text-align: center;
+            color: #333; /* Cambiar el color del texto a gris oscuro */
+        }
+        h1 {
+            font-size: 3em;
+            color: #ff007f; /* Cambiar el color del título a rosa */
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.5em;
+            margin-bottom: 30px;
+        }
+        img {
+            display: block;
             margin: 0 auto;
-            position: relative;
-        }
-        
-        .oreja {
-            width: 50px;
-            height: 50px;
-            background-color: #ccc;
+            max-width: 100%;
+            height: auto;
             border-radius: 50%;
-            position: absolute;
-            top: 20px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.3);
+            transition: transform 0.3s ease-in-out;
         }
-        
-        .oreja-izquierda {
-            left: 20px;
+        img:hover {
+            transform: scale(1.1);
         }
-        
-        .oreja-derecha {
-            right: 20px;
-        }
-        
-        .cara {
-            width: 200px;
-            height: 200px;
-            background-color: #fff;
-            border-radius: 50%;
-            position: absolute;
-            top: 50px;
-            left: 50px;
-        }
-        
-        .ojos {
-            width: 20px;
-            height: 20px;
-            background-color: #000;
-            border-radius: 50%;
-            position: absolute;
-            top: 50px;
-            left: 40px;
-        }
-        
-        .ojo-izquierdo {
-            margin-left: 20px;
-        }
-        
-        .ojo-derecho {
-            margin-left: 80px;
-        }
-        
-        .nariz {
-            width: 10px;
-            height: 10px;
-            background-color: #000;
-            border-radius: 50%;
-            position: absolute;
-            top: 100px;
-            left: 70px;
-        }
-        
-        .boca {
-            width: 50px;
-            height: 10px;
-            background-color: #000;
-            position: absolute;
-            top: 120px;
-            left: 70px;
+        img:active {
+            transform: scale(1.05);
         }
     </style>
 </head>
 <body>
-    <h1>Un Gato</h1>
-    
-    <div class="gato">
-        <div class="oreja oreja-izquierda"></div>
-        <div class="oreja oreja-derecha"></div>
-        <div class="cara">
-            <div class="ojos ojo-izquierdo"></div>
-            <div class="ojos ojo-derecho"></div>
-            <div class="nariz"></div>
-            <div class="boca"></div>
-        </div>
+    <div class="container">
+        <h1>TE AMO MUCHO MI YUKUNSITA !</h1>
+        <p>Gracias por ser parte de mi vida.</p>
+        <img src="cora.gif" alt="Imagen de amor">
     </div>
 </body>
 </html>
+
